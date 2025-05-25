@@ -5,6 +5,89 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FAV TOY</title>
+    <style>
+        body {
+            background-color: #f6cfd7;
+        }
+
+        .header {
+            background-color: #eba1b4;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+        }
+
+        .main_image {
+            width: 100%;
+            height: auto;
+            margin-top: 60px;
+        }
+
+        .description1,
+        .description2 {
+           
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            color: #333;
+            width: 500px;
+            background-color: #efaac3;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #efaac3;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+
+        }
+.paragraphs {
+           
+            align-items: center;
+            
+            margin-top: 20px;
+        }
+        #gallery {
+
+            justify-content: center;
+            margin: 20px;
+
+            background-color: #f2c1bd;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .galleryimg 
+     
+     
+        {
+            width: 400px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+         
+        }
+.galleryimg:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+           
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #eba1b4;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        h1,
+        h2 {
+            font-family: Arial, sans-serif;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -12,31 +95,36 @@
         <h1>LITTLE BIBI TOY KITCHEN</h1>
     </div>
     <section>
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/613/original/athomewithnatalie-spooky-play-kitchen-14-1024x1024.jpg?1748202445"
+        <img class="main_image"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/613/original/athomewithnatalie-spooky-play-kitchen-14-1024x1024.jpg?1748202445"
             alt="MY TOY KITCHEN">
     </section>
-    <section>
+    <section class="d\paragraphs">
         <h2>My Favorite Toy</h2>
-        <p>
+        <p class="description1">
             My favorite toy is my toy kitchen. I love it because it allows me to
             play pretend and cook delicious meals for my family and friends. I can
             use my imagination to create all sorts of dishes, and it helps me learn
             about cooking and food.
         </p>
-        <p>
+        <p class="description2">
             I enjoy playing with my toy kitchen because it is colorful and has
             realistic features like pots, pans, and utensils. It also has a little
             oven and stove where I can pretend to bake and cook. Playing with it
             makes me feel like a real chef like my dad!
         </p>
+        <br>
     </section>
     <div id="gallery">
         <h2>Gallery</h2>
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/614/original/istockphoto-1010938502-612x612.jpg?1748202479"
+        <img class="galleryimg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/614/original/istockphoto-1010938502-612x612.jpg?1748202479"
             alt="Toy Kitchen Image 1">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/615/original/istockphoto-1383965719-612x612.jpg?1748202490"
+        <img class="galleryimg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/615/original/istockphoto-1383965719-612x612.jpg?1748202490"
             alt="Toy Kitchen Image 2">
-        <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/617/original/P02110001-copy-1024x748.jpg?1748203391"
+        <img class="galleryimg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/166/617/original/P02110001-copy-1024x748.jpg?1748203391"
             alt="Toy Kitchen Image 3">
     </div>
 
